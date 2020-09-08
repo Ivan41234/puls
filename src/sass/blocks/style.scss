@@ -1,0 +1,22 @@
+@import '../base/variables';
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+.container {
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import 'promo';
+@import 'header';
+@import 'buttons';
+@import '../base/media';
+@import 'advantages';
+@import 'titles';
+@import 'consultation';
+@import 'forms';
+@import 'carousel';
+@import 'catalog';
+@import 'feed';
+@import 'footer';
+@import 'modal';
