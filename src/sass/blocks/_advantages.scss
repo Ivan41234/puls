@@ -11,6 +11,10 @@
         flex-direction: column;
         align-items: center;
         max-width: 239px;
+        animation: heartbeat 1.5s ease infinite;
+        &:hover {
+            animation-play-state: paused;
+        }
     }
     &__subtitle {
         color: #0d0d0d;
